@@ -1,0 +1,6 @@
+.nav-link:focus, .nav-link:hover.active-link
+{
+    color:var(--primary-color);
+    font-weight: bold;
+
+}

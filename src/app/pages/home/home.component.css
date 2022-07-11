@@ -1,0 +1,54 @@
+.banner
+{
+    background-image: url('../../../assets/images/orange.jpg');
+    height: 600px;
+    background-position: center top;
+    background-size: cover;
+}
+.content
+{
+    top: 40%;
+    left: 20%;
+    position: absolute;
+
+}
+.content h1
+{
+    color: black;
+    font-size: 60px;
+    font-weight: bold;
+   
+
+}
+.content h2
+{
+    color:black;
+    font-size: 40px;
+
+   
+
+}
+.content a
+{
+    text-decoration: none;
+    background-color: #fff;
+    color: var(--primary-color);
+    padding: 15px 20px;
+    border-radius: 5px;
+    
+}
+.content a:hover
+{
+    background-color: var(--primary-color);
+    color: #fff;
+}
+@media screen and (max-width:600px)
+{
+    .banner
+{
+   
+    height: 700px;
+    
+}
+
+}
